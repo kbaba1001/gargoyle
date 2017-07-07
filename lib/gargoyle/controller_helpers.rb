@@ -30,6 +30,7 @@ module Gargoyle
 
     private
 
+    # no doc
     def manager
       @manager ||= Manager.new(auth_scope)
     end
